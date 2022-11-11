@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const AxiosClient = axios.create({
-    baseURL: 'https://api.dlya.top/client/v4',
+    baseURL: 'https://cf.api.dlya.top/client/v4',
     timeout: 15000,
 })
 
