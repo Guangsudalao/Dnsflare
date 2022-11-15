@@ -18,7 +18,7 @@ async function handleRequest(request) {
             status: 200,
             headers: {
                 //"Access-Control-Allow-Origin": requestOrigin ? requestOrigin : "*", //不限制请求来源
-                "Access-Control-Allow-Origin" : "https://dnsflare-lms.pages.dev",      //限制CROS域名
+                "Access-Control-Allow-Origin" : "https://cf.admin.dlya.top,      //限制CROS域名
                 "Access-Control-Allow-Credentials": "true",
                 "Access-Control-Allow-Headers": requestHeaders ? requestHeaders : "*",
                 "Access-Control-Allow-Methods": requestMethod ? requestMethod : "*",
